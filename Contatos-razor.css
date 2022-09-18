@@ -1,98 +1,62 @@
 body{
-	 
-	background:#edcdd2;  
-	 
+	background:#edcdd2;   
  }
- 
- 
+
 .logo-razor{
-	
-	
 	width: 100%;
 	height:140px;
-
 }
 
- 
- header{
+header{
 	background: #ce97d7;
 	padding: 20px 0;
-   
 }
 
-
 .fonte{
-	
 	position:relative;
 	width: 820px;
 	margin: 0 auto;
-
 }
-
 
 nav{
 	position: absolute;
 	top:  -100px;
 	right:0;
-	
-
 }
 
-
-
- nav li{
+nav li{
 	display:inline;
 	margin:0 0 0 70px;
 	
- }
-
-
-
-
+}
 
 nav a {
 	text-transform:uppercase;
 	color: red;
 	font-size:25px;
 	text-decoration:none;
-
 }
 
 nav a:hover{
 	color: #C78C19;
 	text-decoration: underline;
-
-
 }
 
-
-
-
-
 footer {
-    
-    background: #ce97d7;
+    	background: #ce97d7;
 	padding: 40px 0;
 	text-align: center;
 }
 
-
-
-
-
-
- form{
-	margin: 80px 0;
-	
+form{
+	margin: 80px 0;	
 }
+
 form label, form legend, p{
     display:block;
     font-size: 25px;
     margin: 20px 0 24px;
-
-
 }
-
 
 .input-padrao {
     display: block;
@@ -101,11 +65,10 @@ form label, form legend, p{
     width: 55%;
 }
 
-.checkbox{
-	
+.checkbox{	
 	margin: 20px 0;
-		
 }
+
 .enviar {
     width:50%;
     padding: 20px 0;
@@ -118,21 +81,18 @@ form label, form legend, p{
     transition: 1s all;
     cursor: pointer;
 }
+
 .enviar:hover {
     background: purple;
     transform: scale(1.1);
 }
 
 table{
-	margin: 20px 0 40px;
-	
+	margin: 20px 0 40px;	
 }
 
 .rodape{
-	
-	
 	width: 1000px;
 	height:250px;
-	
 }
 
