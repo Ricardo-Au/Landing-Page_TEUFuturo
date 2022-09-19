@@ -43,7 +43,7 @@ nav a:hover{
 }
 
 footer {
-    	background: #ce97d7;
+    background: #ce97d7;
 	padding: 40px 0;
 	text-align: center;
 }
@@ -60,9 +60,8 @@ form label, form legend, p{
 
 .input-padrao {
     display: block;
-    margin: 0 0 20px;
-    padding: 10px 200px;
-    width: 55%;
+    padding: 10px 20px;
+    width: 20%;
 }
 
 .checkbox{	
@@ -94,4 +93,11 @@ table{
 .rodape{
 	width: 1000px;
 	height:250px;
+}
+
+#mensagens-erro{
+	color: red;
+	display:block;
+    font-size: 25px;
+    margin: 20px 0 24px;
 }

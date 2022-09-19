@@ -21,33 +21,43 @@
 		</header>
 
 		<main>
-			<form>
+			<form id="infoCliente">
+				<ul id="mensagens-erro">
 
-			<label for="nomesobrenome"> Nome e Sobrenome </label>
-			<input type="text" id="nomesobrenome" class="input-padrao" required>
+				</ul>
 
-			<p>Email</p>
-			<input type="text" id="email" class="input-padrao" required placeholder ="digite seu email">
-			<label for="telefone">Telefone</label>
+				<label for="nome"> Nome </label>
+				<input type="text" id="nome" class="input-padrao" required placeholder="Digite o seu nome">
 
-			<input type="text" id="telefone" class="input-padrao" required placeholder="digite seu número">
+				<label for="apelido"> Apelido </label>
+				<input type="text" id="apelido" class="input-padrao" required placeholder="Digite o seu apelido">
 
-			<fieldset>
-				<p> Entre em contato conosco através do nosso</p>
-				<label for="email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+				<label for="email">Email</label>
+				<input type="text" id="email" class="input-padrao" required placeholder ="Digite seu email">
 
-				<p for="telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
-				Telefone</p>
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" class="input-padrao" required placeholder="Digite seu número">
 
-				<p for="whattsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
-				WhatsApp</p>
-				<input type="submit" value="Eviar formulário" class="enviar">
+				<br>
+
+				<fieldset>
+					<p> Entre em contato conosco através do nosso</p>
+					<label for="email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+					<label for="telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+					Telefone</label>
+
+					<label for="whattsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+					WhatsApp</label>
+					<button class="enviar" id="enviarInfo">Enviar formulário</button>
+				</fieldset>
 			</form>
 		</main>
 
 		<footer>
 			<img class="rodape"src="Img/razor-rodapé.jpg">
 		</footer>
+		<script src="contatos.js"></script>
 	</body>
 </html>	
 	
